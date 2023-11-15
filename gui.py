@@ -4,6 +4,7 @@ import time
 
 sg.theme("DarkBlack")
 
+functions.check_file()
 label = sg.Text("Enter a to-do item")
 input_box = sg.InputText(tooltip="Enter a to-do item", key="todo")
 add_button = sg.Button(button_text="Add")
